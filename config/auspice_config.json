@@ -1,0 +1,51 @@
+{
+  "title": "Marburg and Ravn Virus",
+  "maintainers": [
+    {"name": "Peter van Heusden", "url": "https://orcid.org/0000-0001-6553-5274"}
+  ],
+  "build_url": "https://github.com/pvanheus/nextstrain-marv-and-ravv",
+  "colorings": [
+    {
+      "key": "gt",
+      "title": "Genotype",
+      "type": "categorical"
+    },
+    {
+      "key": "num_date",
+      "title": "Date",
+      "type": "continuous"
+    },
+    {
+      "key": "host",
+      "title": "Host",
+      "type": "categorical"
+    },
+    {
+      "key": "country",
+      "title": "Country",
+      "type": "categorical"
+    },
+    {
+      "key": "region",
+      "title": "Region",
+      "type": "categorical"
+    }
+  ],
+  "geo_resolutions": [
+    "country",
+    "region"
+  ],
+  "panels": [
+     "tree",
+     "map",
+     "entropy"
+  ],
+  "display_defaults": {
+    "map_triplicate": true
+  },
+  "filters": [
+    "country",
+    "region",
+    "host"
+  ]
+}
