@@ -29,8 +29,7 @@ rule index_sequences:
 rule filter:
     message:
         """
-        Filtering to
-          - {params.sequences_per_group} sequence(s) per {params.group_by!s}
+          Filtering disabled
         """
     input:
         sequences = input_fasta,
@@ -38,9 +37,6 @@ rule filter:
         metadata = input_metadata,
     output:
         sequences = "results/filtered.fasta"
-    params:
-        group_by = "country year",
-        sequences_per_group = 200,
     shell:
         """
         augur filter \
@@ -48,8 +44,6 @@ rule filter:
             --sequence-index {input.sequence_index} \
             --metadata {input.metadata} \
             --output {output.sequences} \
-            --group-by {params.group_by} \
-            --sequences-per-group {params.sequences_per_group} \
         """
 
 rule align:

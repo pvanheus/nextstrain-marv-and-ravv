@@ -29,6 +29,11 @@
       "key": "region",
       "title": "Region",
       "type": "categorical"
+    },
+    {
+      "key": "virus",
+      "title": "Virus",
+      "type": "categorical"
     }
   ],
   "geo_resolutions": [
@@ -46,6 +51,7 @@
   "filters": [
     "country",
     "region",
-    "host"
+    "host",
+    "virus"
   ]
 }

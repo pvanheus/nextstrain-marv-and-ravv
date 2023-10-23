@@ -1,5 +1,5 @@
 name	virus	date	region	country	db	segment	host	authors	url
-AY358025	marburg	1975	Africa	South Africa	genbank	genome	Homo Sapiens		https://www.ncbi.nlm.nih.gov/nuccore/AY358025
+AY358025	marburg	1975	Africa	South Africa	genbank	genome	Homo sapiens		https://www.ncbi.nlm.nih.gov/nuccore/AY358025
 KY047763	marburg	2005	Africa	Angola	genbank	genome	Homo sapiens		https://www.ncbi.nlm.nih.gov/nuccore/KY047763
 NC_024781	ravn	1987	Africa	Kenya	genbank	genome	Homo sapiens		https://www.ncbi.nlm.nih.gov/nuccore/NC_024781
 KU179482	ravn	1987-08-19	Africa	Kenya	genbank	genome	Homo sapiens		https://www.ncbi.nlm.nih.gov/nuccore/KU179482
