@@ -14,3 +14,23 @@ Check out this repository. If you have your own data, add sequences to `data/seq
 
 Run `nextstrain build .` in the top level directory of the repository. The outputs got into the `results/` folder and the files needed by the [Auspice](https://docs.nextstrain.org/projects/auspice/en/stable/) display application are the in `auspice/` folder. You can either view using a local copy of Auspice (e.g. run `nextstrain view auspice/`) or drag the `marvravv.json` file to [https://auspice.us/](https://auspice.us/).
 
+### Excluded strains
+
+The following strains are excluded from analysis by the automated pipeline:
+
+
+EU500827.1
+DQ447652
+DQ447659
+DQ447656
+DQ447654
+DQ447660
+DQ447655
+DQ447658
+DQ447657
+DQ447653
+MG725616
+DQ447650
+DQ447651
+
+The are retained in the datasets for further analysis.
